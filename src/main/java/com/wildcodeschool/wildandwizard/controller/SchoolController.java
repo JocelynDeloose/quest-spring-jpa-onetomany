@@ -34,6 +34,8 @@ public class SchoolController {
         return "schools";
     }
 
+
+
     @GetMapping("/school/register")
     public String inscription(Model out,
                               @RequestParam Long idSchool) {
